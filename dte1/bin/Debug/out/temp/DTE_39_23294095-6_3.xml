@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DTE version="1.0">
+<Documento ID="DTE_637453702432379043">
+<Encabezado>
+<IdDoc>
+<TipoDTE>39</TipoDTE>
+<Folio>3</Folio>
+<FchEmis>2021-01-04</FchEmis>
+<IndServicio>3</IndServicio>
+</IdDoc>
+<Emisor>
+<RUTEmisor>23294095-6</RUTEmisor>
+<RznSocEmisor>MARK VINCENT CHUA</RznSocEmisor>
+<GiroEmisor>ACTIVIDADES DE RESTAURANTES Y DE SERVICIO MOVIL DE COMIDAS</GiroEmisor>
+<DirOrigen>SAN MARTIN 477</DirOrigen>
+<CmnaOrigen>VIÑA DEL MAR</CmnaOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>66666666-6</RUTRecep>
+<RznSocRecep>Razon Social de Cliente</RznSocRecep>
+<DirRecep>Dirección de cliente</DirRecep>
+<CmnaRecep>Comuna de cliente</CmnaRecep>
+</Receptor>
+<Totales>
+<MntNeto>3445</MntNeto>
+<MntExe>0</MntExe>
+<IVA>655</IVA>
+<MntTotal>4100</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<NmbItem>Sandwic	</NmbItem>
+<QtyItem>2</QtyItem>
+<PrcItem>1500</PrcItem>
+<MontoItem>3000</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<NmbItem>Bebida</NmbItem>
+<QtyItem>2</QtyItem>
+<PrcItem>550</PrcItem>
+<MontoItem>1100</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<CodRef>SET</CodRef>
+<RazonRef>CASO-3</RazonRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>23294095-6</RE>
+<TD>39</TD>
+<F>3</F>
+<FE>2021-01-04</FE>
+<RR>66666666-6</RR>
+<RSR>Razon Social de Cliente</RSR>
+<MNT>4100</MNT>
+<IT1>Sandwic	</IT1>
+<CAF version="1.0">
+<DA>
+<RE>23294095-6</RE>
+<RS>MARK VINCENT CHUA</RS>
+<TD>39</TD>
+<RNG>
+<D>1</D>
+<H>10</H>
+</RNG>
+<FA>2021-01-04</FA>
+<RSAPK>
+<M>qArYzvwp0SeGaC+8w8vN6Sap6r715sJeO0nBoPNu5FRSXy7vcuYqZ3yPXW4T8fv78b+IyXVL+aIUSyPIgsAunw==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">MfxkxkryqhRQwTKugeTtFCSZJ1Cno/DyKp26UykKcd4R21FeBBeySF8Lbf3Wak/meK6OleTJsGbWba5tDjy1Vg==</FRMA>
+</CAF>
+<TSTED>2021-01-04T15:17:23</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">L00lrmLuCv0tAMYvZ0vFHM6FTTzXwCcMic50waW8d5LjzUzb2oepwAk7z/khV7B7Aoa93IAillsEM6jp3YJikA==</FRMT>
+</TED>
+<TmstFirma>2021-01-04T15:17:24</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#DTE_637453702432379043"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>dWiXEepJ4n8M3dzzjBlYfS0lPok=</DigestValue></Reference></SignedInfo><SignatureValue>XlpT7VkyHIlKJqXRzNARq56FYPsHCw8U/PnLHKk20OcatXQnRIrMEATnhqwT7pmQ3UTEzz4OgrJ7uy/O95FrniNLtLxcq0yA/J6IHeDdh1SbKlmozb66smQrAHEkL9/8oaWL0GLwXe5yeKypYhK6D2Rl3r03QVuhA4BWBmOLY60um74/GYgZd/KimpYJUHARMmxiAyfrgjapBMN3OqNXZm3toyGG3qfJGie2fUkueeOqFICNrf9aRe8WigJKREc4OpteDPiqTRI9p3/jOvFsXnWUxrVk/+oOXQ+HXMpV3ueDdGrFGCO6S0SYKAdHyjFlxrbwUeinbGGIap1xDIUiwg==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>jZs4++I9ahmP9GMvY/A+7TTvjFlrN76R5DNlb0MJnd08Mvz46d4wT9LUdzdxZYO31PbllbvtCz3Pl+okwtZMYmq8LD5cu5ujPQUZMtDH2SbuOgrz4vTuZyCWYTiZFau//cgjsG7QmKba/N3zI7YmimbXME1GvjyrmjHbdrvb0vzkiLkRu1mOM8HoXTlsY3/xdC/fLmI/rM/muXdpdUkxPfEIttctUhLPrFNlcHivFBnIExy8KAp0TXeM2s9MyxAfGoyfB4nhTjDxzolE1AclrClwcj74NFoWA19XT1e26qKQ+yFKlAvfCLJSKa4r34b6DosNsxqlafApg0fTXyIr8Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></DTE>

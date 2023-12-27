@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "copiar_temp2", "copiar_temp\copiar_temp2.csproj", "{0BB4DA1C-CF3C-4EC4-AB08-9DF1DF8E7792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BB4DA1C-CF3C-4EC4-AB08-9DF1DF8E7792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB4DA1C-CF3C-4EC4-AB08-9DF1DF8E7792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB4DA1C-CF3C-4EC4-AB08-9DF1DF8E7792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB4DA1C-CF3C-4EC4-AB08-9DF1DF8E7792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58A6062C-A719-486D-AF66-4375B91D12D8}
+	EndGlobalSection
+EndGlobal

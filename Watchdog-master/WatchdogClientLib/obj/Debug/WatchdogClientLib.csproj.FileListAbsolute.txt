@@ -1,0 +1,6 @@
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogClientLib\bin\Debug\WatchdogClient.dll
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogClientLib\bin\Debug\WatchdogClient.pdb
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogClientLib\obj\Debug\WatchdogClientLib.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogClientLib\obj\Debug\WatchdogClientLib.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogClientLib\obj\Debug\WatchdogClient.dll
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogClientLib\obj\Debug\WatchdogClient.pdb

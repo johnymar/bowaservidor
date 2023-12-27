@@ -1,0 +1,15 @@
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\bin\Debug\Utilities.dll
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\bin\Debug\Utilities.pdb
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\bin\Debug\NLog.dll
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\bin\Debug\NLog.xml
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\obj\Debug\Utilities.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\obj\Debug\Utilities.Controls.LineInputDialog.resources
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\obj\Debug\Utilities.Controls.ListInputDialog.resources
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\obj\Debug\Utilities.Controls.LoggingView.resources
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\obj\Debug\Utilities.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\obj\Debug\Utilities.csproj.CopyComplete
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\obj\Debug\Utilities.dll
+C:\Users\Administrador\Documents\dte\Watchdog-master\Utilities\obj\Debug\Utilities.pdb

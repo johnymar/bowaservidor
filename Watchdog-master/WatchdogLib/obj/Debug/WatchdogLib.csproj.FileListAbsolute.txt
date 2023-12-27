@@ -1,0 +1,13 @@
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\bin\Debug\WatchdogLib.dll
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\bin\Debug\WatchdogLib.pdb
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\bin\Debug\NLog.dll
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\bin\Debug\Utilities.dll
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\bin\Debug\Utilities.pdb
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\bin\Debug\NLog.xml
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\obj\Debug\WatchdogLib.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\obj\Debug\WatchdogLib.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\obj\Debug\WatchdogLib.csproj.CopyComplete
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\obj\Debug\WatchdogLib.dll
+C:\Users\Administrador\Documents\dte\Watchdog-master\WatchdogLib\obj\Debug\WatchdogLib.pdb

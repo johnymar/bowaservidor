@@ -1,0 +1,9 @@
+El proceso no puede obtener acceso al archivo 'C:\Users\Administrador\Documents\bowa\temp\12099811-0\DTE_39_12099811-0_115047.xml' porque está siendo utilizado en otro proceso.
+
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   en System.Xml.XmlWriterSettings.CreateWriter(String outputFileName)
+   en System.Xml.XmlWriter.Create(String outputFileName, XmlWriterSettings settings)
+   en ItaSystem.DTE.Engine.XML.XmlHandler.Serialize[T](T obj, SerializationTypes serializationType, String& filePath, Boolean writeXmlDeclaration, Boolean deleteTempFile, List`1 namespaces, String outputDirectoryPath, Boolean escribeArchivo, String defaultNamespace, String customName) en C:\Users\Administrador\Documents\dte\BOWA_ITA\BOWA_ITA\XML\XmlHandler.cs:línea 138

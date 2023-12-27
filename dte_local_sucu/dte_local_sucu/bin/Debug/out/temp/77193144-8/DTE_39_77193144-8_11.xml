@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DTE version="1.0">
+<Documento ID="T11">
+<Encabezado>
+<IdDoc>
+<TipoDTE>39</TipoDTE>
+<Folio>11</Folio>
+<FchEmis>2020-10-16</FchEmis>
+<IndServicio>3</IndServicio>
+</IdDoc>
+<Emisor>
+<RUTEmisor>77193144-8</RUTEmisor>
+<RznSocEmisor>ALMACEN TIA MARY SPA</RznSocEmisor>
+<GiroEmisor>Venta al por menor de alimentos en comercios especializados(almacenes</GiroEmisor>
+<DirOrigen>Primo Rivera #1534 Isla del Sol</DirOrigen>
+<CmnaOrigen>Maipu</CmnaOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>66666666-6</RUTRecep>
+<RznSocRecep>Cliente Boleta</RznSocRecep>
+<DirRecep>SIN DIRECCION</DirRecep>
+<CmnaRecep>SIN COMUNA</CmnaRecep>
+<CiudadRecep>SIN CIUDAD</CiudadRecep>
+</Receptor>
+<Totales>
+<MntNeto>84</MntNeto>
+<MntExe>0</MntExe>
+<IVA>16</IVA>
+<MntTotal>100</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<NmbItem>Departamento2</NmbItem>
+<QtyItem>1</QtyItem>
+<PrcItem>100</PrcItem>
+<MontoItem>100</MontoItem>
+</Detalle>
+<TED version="1.0">
+<DD>
+<RE>77193144-8</RE>
+<TD>39</TD>
+<F>11</F>
+<FE>2020-10-16</FE>
+<RR>66666666-6</RR>
+<RSR>Cliente Boleta</RSR>
+<MNT>100</MNT>
+<IT1>Departamento2</IT1>
+<CAF version="1.0">
+<DA>
+<RE>77193144-8</RE>
+<RS>ALMACEN TIA MARY SPA</RS>
+<TD>39</TD>
+<RNG>
+<D>1</D>
+<H>55</H>
+</RNG>
+<FA>2020-10-05</FA>
+<RSAPK>
+<M>qSMzDS5uOd0KOVhrKYSt2MZ90i/6N7XzTueDLxgyxprCk7ept9hdlCq0GHhyRqygU1zE2Ig6mmPG6PKIn1PV5w==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">JspzvHkV/CstR3rOLR4d6oA982KF5sizvht3i11dgbtR9/xDDx4A+4nBpNpAnJPUYGUO0dSzqmmnMuNrNP9HRQ==</FRMA>
+</CAF>
+<TSTED>2020-10-20T18:54:46</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">VGtQxMUUx8BLRD+pJdCkiCbzJ9YV/HubvCxBkDQmAex1ZSL0MEMGhUnaCTiSOA9lvSfN/srtvZ8NpcHSbrVijg==</FRMT>
+</TED>
+<TmstFirma>2020-10-20T18:54:49</TmstFirma>
+</Documento>
+</DTE>

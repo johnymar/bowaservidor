@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<AUTORIZACION>
+  <CAF version="1.0">
+    <DA>
+      <RE>77193144-8</RE>
+      <RS>ALMACEN TIA MARY SPA</RS>
+      <TD>39</TD>
+      <RNG>
+        <D>11</D>
+        <H>55</H>
+      </RNG>
+      <FA>2020-10-05</FA>
+      <RSAPK>
+        <M>qSMzDS5uOd0KOVhrKYSt2MZ90i/6N7XzTueDLxgyxprCk7ept9hdlCq0GHhyRqygU1zE2Ig6mmPG6PKIn1PV5w==</M>
+        <E>Aw==</E>
+      </RSAPK>
+      <IDK>100</IDK>
+    </DA>
+    <FRMA algoritmo="SHA1withRSA">JspzvHkV/CstR3rOLR4d6oA982KF5sizvht3i11dgbtR9/xDDx4A+4nBpNpAnJPUYGUO0dSzqmmnMuNrNP9HRQ==</FRMA>
+  </CAF>
+  <RSASK>-----BEGIN RSA PRIVATE KEY-----
+MIIBOgIBAAJBAKkjMw0ubjndCjlYaymErdjGfdIv+je1807ngy8YMsaawpO3qbfY
+XZQqtBh4ckasoFNcxNiIOppjxujyiJ9T1ecCAQMCQHDCIgjJntE+BtDlnMZYc+XZ
+qTbKps/OojSaV3S6zIRmFs4ioWsj7Xq0WEY2TZsoAbi197ug4yhXuLinpJP8iAsC
+IQDWovUV1BIFTzQSeaqbBB4W1kghnYwWcOZfUGsfFaL8eQIhAMm7jqHDEHQM6B01
+fGLZ0oboA6+his9s+dKDi/Krtg1fAiEAjxdODo1hWN94DFEcZ1gUDzmFa75dZEtE
+P4ryFLkXUvsCIQCGfQnBLLWis0VozlLskTcEmq0fwQc081E3Al1McnlePwIhAJnX
+71jl+mcOX9MVY4YqnfibR3DEPCvj1ENAKc9QAOBR
+-----END RSA PRIVATE KEY-----
+</RSASK>
+  <RSAPUBK>-----BEGIN PUBLIC KEY-----
+MFowDQYJKoZIhvcNAQEBBQADSQAwRgJBAKkjMw0ubjndCjlYaymErdjGfdIv+je1
+807ngy8YMsaawpO3qbfYXZQqtBh4ckasoFNcxNiIOppjxujyiJ9T1ecCAQM=
+-----END PUBLIC KEY-----
+</RSAPUBK>
+</AUTORIZACION>

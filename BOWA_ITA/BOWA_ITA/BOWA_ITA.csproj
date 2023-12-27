@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C074D29-44DB-4A14-9077-E0BAC346DCF7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BOWA_ITA</RootNamespace>
+    <AssemblyName>BOWA_ITA</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.8.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.8\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextSharp.LGPLv2.Core, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.LGPLv2.Core.1.7.0\lib\net40\iTextSharp.LGPLv2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CAFHandler\CAFHandler.cs" />
+    <Compile Include="Cesion\AEC.cs" />
+    <Compile Include="Cesion\Caratula.cs" />
+    <Compile Include="Cesion\Cedente.cs" />
+    <Compile Include="Cesion\Cesion.cs" />
+    <Compile Include="Cesion\Cesionario.cs" />
+    <Compile Include="Cesion\Cesiones.cs" />
+    <Compile Include="Cesion\DocumentoAEC.cs" />
+    <Compile Include="Cesion\DocumentoCesion.cs" />
+    <Compile Include="Cesion\DocumentoDTECedido.cs" />
+    <Compile Include="Cesion\DTECedido.cs" />
+    <Compile Include="Cesion\IdDTE.cs" />
+    <Compile Include="Cesion\RUTAutorizado.cs" />
+    <Compile Include="Config\Resources.cs" />
+    <Compile Include="Documento\Aduana.cs" />
+    <Compile Include="Documento\Autorizacion.cs" />
+    <Compile Include="Documento\CAF.cs" />
+    <Compile Include="Documento\Chofer.cs" />
+    <Compile Include="Documento\ClavePublicaDSA.cs" />
+    <Compile Include="Documento\ClavePublicaRSA.cs" />
+    <Compile Include="Documento\CodigoItem.cs" />
+    <Compile Include="Documento\Comisiones.cs" />
+    <Compile Include="Documento\ComisionRecargo.cs" />
+    <Compile Include="Documento\DatosAutorizacionFolio.cs" />
+    <Compile Include="Documento\DatosBasicos.cs" />
+    <Compile Include="Documento\DescuentosRecargos.cs" />
+    <Compile Include="Documento\Detalle.cs" />
+    <Compile Include="Documento\DetalleExportacion.cs" />
+    <Compile Include="Documento\Documento.cs" />
+    <Compile Include="Documento\DTE.cs" />
+    <Compile Include="Documento\Emisor.cs" />
+    <Compile Include="Documento\Encabezado.cs" />
+    <Compile Include="Documento\Exportaciones.cs" />
+    <Compile Include="Documento\Extranjero.cs" />
+    <Compile Include="Documento\FirmaDigital.cs" />
+    <Compile Include="Documento\GuiaExportacion.cs" />
+    <Compile Include="Documento\IdentificacionDTE.cs" />
+    <Compile Include="Documento\ImpuestosRetenciones.cs" />
+    <Compile Include="Documento\ImpuestosRetencionesOtraMoneda.cs" />
+    <Compile Include="Documento\MontoPagoItem.cs" />
+    <Compile Include="Documento\OtraMoneda.cs" />
+    <Compile Include="Documento\OtraMonedaDetalle.cs" />
+    <Compile Include="Documento\Rango.cs" />
+    <Compile Include="Documento\Receptor.cs" />
+    <Compile Include="Documento\Referencia.cs" />
+    <Compile Include="Documento\Retenedor.cs" />
+    <Compile Include="Documento\SubCantidad.cs" />
+    <Compile Include="Documento\SubDescuento.cs" />
+    <Compile Include="Documento\SubRecargo.cs" />
+    <Compile Include="Documento\SubTotal.cs" />
+    <Compile Include="Documento\TimbreElectronico.cs" />
+    <Compile Include="Documento\TipoBulto.cs" />
+    <Compile Include="Documento\Totales.cs" />
+    <Compile Include="Documento\Transporte.cs" />
+    <Compile Include="DTE\Engine\Enum\ClaseCAL.cs" />
+    <Compile Include="DTE\Engine\Enum\IndicadorAnulado.cs" />
+    <Compile Include="DTE\Engine\Enum\IndicadorSinCosto.cs" />
+    <Compile Include="DTE\Engine\Enum\OperacionDetalle.cs" />
+    <Compile Include="DTE\Engine\Enum\TipoCertificado.cs" />
+    <Compile Include="DTE\Engine\Enum\TipoEnvioLibro.cs" />
+    <Compile Include="DTE\Engine\Enum\TipoLCE.cs" />
+    <Compile Include="DTE\Engine\Enum\TipoLibro.cs" />
+    <Compile Include="DTE\Engine\Enum\TipoOperacionLibro.cs" />
+    <Compile Include="Enum\Ambiente.cs" />
+    <Compile Include="Enum\CodigoIVANoRecuperable.cs" />
+    <Compile Include="Enum\CodigosAduana.cs" />
+    <Compile Include="Enum\CodigoTraslado.cs" />
+    <Compile Include="Enum\EstadoEnvioEmpresa.cs" />
+    <Compile Include="Enum\EstadoRecepcionDTE.cs" />
+    <Compile Include="Enum\EstadoResultadoDTE.cs" />
+    <Compile Include="Enum\FormaPago.cs" />
+    <Compile Include="Enum\IndicadorExento.cs" />
+    <Compile Include="Enum\IndicadorFacturacionExencion.cs" />
+    <Compile Include="Enum\IndicadorServicio.cs" />
+    <Compile Include="Enum\MedioPago.cs" />
+    <Compile Include="Enum\TipoCuentaPago.cs" />
+    <Compile Include="Enum\TipoDescuento.cs" />
+    <Compile Include="Enum\TipoDespacho.cs" />
+    <Compile Include="Enum\TipoDTE.cs" />
+    <Compile Include="Enum\TipoImpresion.cs" />
+    <Compile Include="Enum\TipoImpuesto.cs" />
+    <Compile Include="Enum\TipoMoneda.cs" />
+    <Compile Include="Enum\TipoMonedaBancoCentral.cs" />
+    <Compile Include="Enum\TipoMovimiento.cs" />
+    <Compile Include="Enum\TipoRecargoComision.cs" />
+    <Compile Include="Enum\TIpoReferencia.cs" />
+    <Compile Include="Enum\TipoServicio.cs" />
+    <Compile Include="Enum\TipoTraslado.cs" />
+    <Compile Include="InformacionElectronica\Envio\Caratula.cs" />
+    <Compile Include="InformacionElectronica\Envio\EnvioBoleta.cs" />
+    <Compile Include="InformacionElectronica\Envio\EnvioDTE.cs" />
+    <Compile Include="InformacionElectronica\Envio\SetDTE.cs" />
+    <Compile Include="InformacionElectronica\Envio\SubTotalesDTE.cs" />
+    <Compile Include="Helpers\Email.cs" />
+    <Compile Include="Helpers\EscapeQuotesXmlWriter.cs" />
+    <Compile Include="Helpers\Rut.cs" />
+    <Compile Include="Helpers\StringHelper.cs" />
+    <Compile Include="InformacionElectronica\LBoletas\Caratula.cs" />
+    <Compile Include="InformacionElectronica\LBoletas\Detalle.cs" />
+    <Compile Include="InformacionElectronica\LBoletas\EnvioLibro.cs" />
+    <Compile Include="InformacionElectronica\LBoletas\LibroBoletas.cs" />
+    <Compile Include="InformacionElectronica\LBoletas\ResumenPeriodo.cs" />
+    <Compile Include="InformacionElectronica\LBoletas\TotalPeriodo.cs" />
+    <Compile Include="InformacionElectronica\LBoletas\TotalServicio.cs" />
+    <Compile Include="InformacionElectronica\LCV\Caratula.cs" />
+    <Compile Include="InformacionElectronica\LCV\CertificadoAutorizacionLibro.cs" />
+    <Compile Include="InformacionElectronica\LCV\ComprobanteCertificado.cs" />
+    <Compile Include="InformacionElectronica\LCV\Detalle.cs" />
+    <Compile Include="InformacionElectronica\LCV\DocumentoCAL.cs" />
+    <Compile Include="InformacionElectronica\LCV\DocumentoCOCERT.cs" />
+    <Compile Include="InformacionElectronica\LCV\EnvioLibro.cs" />
+    <Compile Include="InformacionElectronica\LCV\ImpuestosDetalle.cs" />
+    <Compile Include="InformacionElectronica\LCV\ImpuestosPeriodo.cs" />
+    <Compile Include="InformacionElectronica\LCV\ImpuestosSegmento.cs" />
+    <Compile Include="InformacionElectronica\LCV\LibroCompraVenta.cs" />
+    <Compile Include="InformacionElectronica\LCV\LibroGuia.cs" />
+    <Compile Include="InformacionElectronica\LCV\ResumenPeriodo.cs" />
+    <Compile Include="InformacionElectronica\LCV\ResumenSegmento.cs" />
+    <Compile Include="InformacionElectronica\LCV\ResumenSegmentoGuia.cs" />
+    <Compile Include="InformacionElectronica\LCV\TotalIVANoRecuperable.cs" />
+    <Compile Include="InformacionElectronica\LCV\TotalIVANoRecuperableDetalle.cs" />
+    <Compile Include="InformacionElectronica\LCV\TotalLiquidacion.cs" />
+    <Compile Include="InformacionElectronica\LCV\TotalLiquidacionDetalle.cs" />
+    <Compile Include="InformacionElectronica\LCV\TotalPeriodo.cs" />
+    <Compile Include="InformacionElectronica\LCV\TotalSegmento.cs" />
+    <Compile Include="InformacionElectronica\LCV\TotalTraslado.cs" />
+    <Compile Include="PDF417\PDF417.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RCOF\Caratula.cs" />
+    <Compile Include="RCOF\ConsumoFolios.cs" />
+    <Compile Include="RCOF\DocumentoConsumoFolios.cs" />
+    <Compile Include="RCOF\RangoAnulados.cs" />
+    <Compile Include="RCOF\RangoUtilizados.cs" />
+    <Compile Include="RCOF\Resumen.cs" />
+    <Compile Include="ReciboMercaderia\Caratula.cs" />
+    <Compile Include="ReciboMercaderia\DocumentoRecibo.cs" />
+    <Compile Include="ReciboMercaderia\EnvioRecibos.cs" />
+    <Compile Include="ReciboMercaderia\Recibo.cs" />
+    <Compile Include="ReciboMercaderia\SetRecibos.cs" />
+    <Compile Include="RespuestaEnvio\Caratula.cs" />
+    <Compile Include="RespuestaEnvio\RecepcionDTE.cs" />
+    <Compile Include="RespuestaEnvio\RecepcionEnvio.cs" />
+    <Compile Include="RespuestaEnvio\RespuestaDTE.cs" />
+    <Compile Include="RespuestaEnvio\Resultado.cs" />
+    <Compile Include="RespuestaEnvio\ResultadoDTE.cs" />
+    <Compile Include="Security\Encrypt\Encrypter.cs" />
+    <Compile Include="Security\Firma\Firma.cs" />
+    <Compile Include="Security\Timbre\Timbre.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Utilidades.cs" />
+    <Compile Include="Web References\Certificacion.EstadoDTEAvanzado\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Certificacion.EstadoDTE\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Certificacion.EstadoEnvio\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Certificacion.RegistroReclamoWS\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Certificacion.Seed\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Certificacion.Token\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Produccion.EstadoDTEAvanzado\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Produccion.EstadoDTE\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Produccion.EstadoEnvio\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Produccion.RegistroReclamo\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Produccion.Seed\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Web References\Produccion.Token\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WS\AceptacionReclamo\AceptacionReclamoResult.cs" />
+    <Compile Include="WS\AceptacionReclamo\AceptacionReclamoWS.cs" />
+    <Compile Include="WS\Autorizacion\Autenticar.cs" />
+    <Compile Include="WS\Autorizacion\AutenticarREST.cs" />
+    <Compile Include="WS\EnvioBoleta\EnvioBoleta.cs" />
+    <Compile Include="WS\EnvioDTE\EnvioDTE.cs" />
+    <Compile Include="WS\EnvioDTE\EnvioDTEResult.cs" />
+    <Compile Include="WS\EstadoDTE\EstadoDTE.cs" />
+    <Compile Include="WS\EstadoDTE\EstadoDTEAvanzado.cs" />
+    <Compile Include="WS\EstadoDTE\EstadoDTEAvanzadoResult.cs" />
+    <Compile Include="WS\EstadoDTE\EstadoDTEResult.cs" />
+    <Compile Include="WS\EstadoEnvio\EstadoEnvio.cs" />
+    <Compile Include="WS\EstadoEnvio\EstadoEnvioBoletaResult.cs" />
+    <Compile Include="WS\EstadoEnvio\EstadoEnvioResult.cs" />
+    <Compile Include="WS\HttpServices.cs" />
+    <Compile Include="WS\UtilidadesWS.cs" />
+    <Compile Include="XML\Schemas.cs" />
+    <Compile Include="XML\SerializationType.cs" />
+    <Compile Include="XML\XmlHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://maullin.sii.cl/DTEWS/CrSeed.jws%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Certificacion.Seed\</RelPath>
+      <UpdateFromURL>https://maullin.sii.cl/DTEWS/CrSeed.jws%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Certificacion_Seed_CrSeedService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://maullin.sii.cl/DTEWS/GetTokenFromSeed.jws%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Certificacion.Token\</RelPath>
+      <UpdateFromURL>https://maullin.sii.cl/DTEWS/GetTokenFromSeed.jws%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Certificacion_Token_GetTokenFromSeedService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://maullin.sii.cl/DTEWS/QueryEstDte.jws%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Certificacion.EstadoDTE\</RelPath>
+      <UpdateFromURL>https://maullin.sii.cl/DTEWS/QueryEstDte.jws%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Certificacion_EstadoDTE_QueryEstDteService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://maullin.sii.cl/DTEWS/QueryEstUp.jws%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Certificacion.EstadoEnvio\</RelPath>
+      <UpdateFromURL>https://maullin.sii.cl/DTEWS/QueryEstUp.jws%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Certificacion_EstadoEnvio_QueryEstUpService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://maullin.sii.cl/DTEWS/services/QueryEstDteAv%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Certificacion.EstadoDTEAvanzado\</RelPath>
+      <UpdateFromURL>https://maullin.sii.cl/DTEWS/services/QueryEstDteAv%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Certificacion_EstadoDTEAvanzado_QueryEstDteAvService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://palena.sii.cl/DTEWS/CrSeed.jws%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Produccion.Seed\</RelPath>
+      <UpdateFromURL>https://palena.sii.cl/DTEWS/CrSeed.jws%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Produccion_Seed_CrSeedService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://palena.sii.cl/DTEWS/GetTokenFromSeed.jws%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Produccion.Token\</RelPath>
+      <UpdateFromURL>https://palena.sii.cl/DTEWS/GetTokenFromSeed.jws%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Produccion_Token_GetTokenFromSeedService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://palena.sii.cl/DTEWS/QueryEstDte.jws%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Produccion.EstadoDTE\</RelPath>
+      <UpdateFromURL>https://palena.sii.cl/DTEWS/QueryEstDte.jws%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Produccion_EstadoDTE_QueryEstDteService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://palena.sii.cl/DTEWS/QueryEstUp.jws%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Produccion.EstadoEnvio\</RelPath>
+      <UpdateFromURL>https://palena.sii.cl/DTEWS/QueryEstUp.jws%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Produccion_EstadoEnvio_QueryEstUpService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://palena.sii.cl/DTEWS/services/QueryEstDteAv%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Produccion.EstadoDTEAvanzado\</RelPath>
+      <UpdateFromURL>https://palena.sii.cl/DTEWS/services/QueryEstDteAv%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Produccion_EstadoDTEAvanzado_QueryEstDteAvService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://ws1.sii.cl/WSREGISTRORECLAMODTE/registroreclamodteservice%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Produccion.RegistroReclamo\</RelPath>
+      <UpdateFromURL>https://ws1.sii.cl/WSREGISTRORECLAMODTE/registroreclamodteservice%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Produccion_RegistroReclamo_RegistroReclamoDteServiceEndpointService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://ws2.sii.cl/WSREGISTRORECLAMODTECERT/registroreclamodteservice%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Certificacion.RegistroReclamoWS\</RelPath>
+      <UpdateFromURL>https://ws2.sii.cl/WSREGISTRORECLAMODTECERT/registroreclamodteservice%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BOWA_ITA_Certificacion_RegistroReclamoWS_RegistroReclamoDteServiceEndpointService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Certificacion.EstadoDTEAvanzado\QueryEstDteAv.wsdl" />
+    <None Include="Web References\Certificacion.EstadoDTEAvanzado\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Certificacion.EstadoDTE\QueryEstDte.wsdl" />
+    <None Include="Web References\Certificacion.EstadoDTE\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Certificacion.EstadoEnvio\QueryEstUp.wsdl" />
+    <None Include="Web References\Certificacion.EstadoEnvio\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Certificacion.RegistroReclamoWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Certificacion.RegistroReclamoWS\registroreclamodteservice.wsdl" />
+    <None Include="Web References\Certificacion.RegistroReclamoWS\registroreclamodteservice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\Certificacion.RegistroReclamoWS\respuestaTo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Certificacion.Seed\CrSeed.wsdl" />
+    <None Include="Web References\Certificacion.Seed\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Certificacion.Token\GetTokenFromSeed.wsdl" />
+    <None Include="Web References\Certificacion.Token\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Produccion.EstadoDTEAvanzado\QueryEstDteAv.wsdl" />
+    <None Include="Web References\Produccion.EstadoDTEAvanzado\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Produccion.EstadoDTE\QueryEstDte.wsdl" />
+    <None Include="Web References\Produccion.EstadoDTE\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Produccion.EstadoEnvio\QueryEstUp.wsdl" />
+    <None Include="Web References\Produccion.EstadoEnvio\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Produccion.RegistroReclamo\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Produccion.RegistroReclamo\registroreclamodteservice.wsdl" />
+    <None Include="Web References\Produccion.RegistroReclamo\registroreclamodteservice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\Produccion.RegistroReclamo\respuestaTo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Produccion.Seed\CrSeed.wsdl" />
+    <None Include="Web References\Produccion.Seed\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Produccion.Token\GetTokenFromSeed.wsdl" />
+    <None Include="Web References\Produccion.Token\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="XML\Schemas\ConsumoFolio_v10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\Schemas\DTE_v10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\Schemas\EnvioBOLETA_v11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\Schemas\EnvioDTE_v10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\Schemas\IECV\LceCal_v10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\Schemas\IECV\LceCoCertif_v10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\Schemas\IECV\LceSiiTypes_v10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\Schemas\IECV\LibroCV_v10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\Schemas\IECV\xmldsignature_v10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\Schemas\SiiTypes_v10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\Schemas\xmldsignature_v10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

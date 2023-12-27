@@ -1,0 +1,10 @@
+C:\Users\RoshanF\DevThread\WatchDog\WatchdogLib\bin\Release\WatchdogLib.dll
+C:\Users\RoshanF\DevThread\WatchDog\WatchdogLib\bin\Release\WatchdogLib.pdb
+C:\Users\RoshanF\DevThread\WatchDog\WatchdogLib\obj\Release\WatchdogLib.dll
+C:\Users\RoshanF\DevThread\WatchDog\WatchdogLib\obj\Release\WatchdogLib.pdb
+C:\Users\Administrador\Documents\dte\WatchdogDemo\WatchdogLib\bin\Release\WatchdogLib.dll
+C:\Users\Administrador\Documents\dte\WatchdogDemo\WatchdogLib\bin\Release\WatchdogLib.pdb
+C:\Users\Administrador\Documents\dte\WatchdogDemo\WatchdogLib\obj\Release\WatchdogLib.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\dte\WatchdogDemo\WatchdogLib\obj\Release\WatchdogLib.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\dte\WatchdogDemo\WatchdogLib\obj\Release\WatchdogLib.dll
+C:\Users\Administrador\Documents\dte\WatchdogDemo\WatchdogLib\obj\Release\WatchdogLib.pdb

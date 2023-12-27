@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BOWA_ITA.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BOWA_ITA_Certificacion_EstadoDTE_QueryEstDteService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://maullin.sii.cl/DTEWS/QueryEstDte.jws</Value>
+    </Setting>
+    <Setting Name="BOWA_ITA_Certificacion_EstadoDTEAvanzado_QueryEstDteAvService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://maullin.sii.cl/DTEWS/services/QueryEstDteAv</Value>
+    </Setting>
+    <Setting Name="BOWA_ITA_Certificacion_EstadoEnvio_QueryEstUpService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://maullin.sii.cl/DTEWS/QueryEstUp.jws</Value>
+    </Setting>
+    <Setting Name="BOWA_ITA_Certificacion_RegistroReclamoWS_RegistroReclamoDteServiceEndpointService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ws2.sii.cl/WSREGISTRORECLAMODTECERT/registroreclamodteservice</Value>
+    </Setting>
+    <Setting Name="BOWA_ITA_Certificacion_Seed_CrSeedService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://maullin.sii.cl/DTEWS/CrSeed.jws</Value>
+    </Setting>
+    <Setting Name="BOWA_ITA_Certificacion_Token_GetTokenFromSeedService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://maullin.sii.cl/DTEWS/GetTokenFromSeed.jws</Value>
+    </Setting>
+    <Setting Name="BOWA_ITA_Produccion_EstadoDTE_QueryEstDteService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://palena.sii.cl/DTEWS/QueryEstDte.jws</Value>
+    </Setting>
+    <Setting Name="BOWA_ITA_Produccion_EstadoDTEAvanzado_QueryEstDteAvService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://palena.sii.cl/DTEWS/services/QueryEstDteAv</Value>
+    </Setting>
+    <Setting Name="BOWA_ITA_Produccion_EstadoEnvio_QueryEstUpService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://palena.sii.cl/DTEWS/QueryEstUp.jws</Value>
+    </Setting>
+    <Setting Name="BOWA_ITA_Produccion_RegistroReclamo_RegistroReclamoDteServiceEndpointService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://ws1.sii.cl/WSREGISTRORECLAMODTE/registroreclamodteservice</Value>
+    </Setting>
+    <Setting Name="BOWA_ITA_Produccion_Seed_CrSeedService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://palena.sii.cl/DTEWS/CrSeed.jws</Value>
+    </Setting>
+    <Setting Name="BOWA_ITA_Produccion_Token_GetTokenFromSeedService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://palena.sii.cl/DTEWS/GetTokenFromSeed.jws</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

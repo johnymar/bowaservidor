@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DTE version="1.0">
+<Documento ID="DTE_637539433981341556">
+<Encabezado>
+<IdDoc>
+<TipoDTE>39</TipoDTE>
+<Folio>1</Folio>
+<FchEmis>2022-02-10</FchEmis>
+<IndServicio>3</IndServicio>
+</IdDoc>
+<Emisor>
+<RUTEmisor>11111111-1</RUTEmisor>
+<RznSocEmisor>COMERCIAL NUEVA CARNICERIA G R LIMITADA</RznSocEmisor>
+<GiroEmisor>CARNICERIA</GiroEmisor>
+<DirOrigen>SAN MARTIN 477</DirOrigen>
+<CmnaOrigen>VIÑA DEL MAR</CmnaOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>66666666-6</RUTRecep>
+<RznSocRecep>Razon Social de Cliente</RznSocRecep>
+<DirRecep>Dirección de cliente</DirRecep>
+<CmnaRecep>Comuna de cliente</CmnaRecep>
+</Receptor>
+<Totales>
+<MntNeto>1</MntNeto>
+<MntExe>0</MntExe>
+<MntTotal>1</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<NmbItem>uuuu</NmbItem>
+<QtyItem>1</QtyItem>
+<PrcItem>1</PrcItem>
+<MontoItem>1</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<CodRef>SET</CodRef>
+<RazonRef>CASO-1</RazonRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>77187151-8</RE>
+<TD>39</TD>
+<F>1</F>
+<FE>2021-04-13</FE>
+<RR>66666666-6</RR>
+<RSR>Razon Social de Cliente</RSR>
+<MNT>1</MNT>
+<IT1>uuuu</IT1>
+<CAF version="1.0">
+<DA>
+<RE>23294095-6</RE>
+<RS>MARK VINCENT CHUA</RS>
+<TD>39</TD>
+<RNG>
+<D>1</D>
+<H>10</H>
+</RNG>
+<FA>2021-01-04</FA>
+<RSAPK>
+<M>qArYzvwp0SeGaC+8w8vN6Sap6r715sJeO0nBoPNu5FRSXy7vcuYqZ3yPXW4T8fv78b+IyXVL+aIUSyPIgsAunw==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">MfxkxkryqhRQwTKugeTtFCSZJ1Cno/DyKp26UykKcd4R21FeBBeySF8Lbf3Wak/meK6OleTJsGbWba5tDjy1Vg==</FRMA>
+</CAF>
+<TSTED>2021-04-13T20:43:18</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">PXBxbr1mzISfzViRginhH/0t86XtqKjKMkgR8YgsiqPVa7+LY1y8UtuLXditykVqUbPwiu7q663GxcCci62urA==</FRMT>
+</TED>
+<TmstFirma>2021-04-13T20:43:24</TmstFirma>
+</Documento>
+</DTE>
